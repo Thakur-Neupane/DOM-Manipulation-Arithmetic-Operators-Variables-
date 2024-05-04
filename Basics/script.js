@@ -117,5 +117,29 @@
 // Array Object and Functions
 // Array
 
-const Arg = ["milk", "egg", "banana", "papaya"];
-const randomarray = [1, 2, 2.4, false, [hello], 1000, "string"];
+// const Arg = ["milk", "egg", "banana", "papaya"];
+// const randomarray = [1, 2, 2.4, false, [hello], 1000, "string"];
+
+// Array index
+// Traversing arrays
+
+// Object
+// const object1 = {
+//   name: "Thakur",
+//   age: 22,
+//   address: Newtown,
+//   1: "string",
+// };
+const jsbook = {
+  name: "jsbook",
+  Author: "brendoneich",
+  Edition: "third",
+  Pages: 500,
+};
+document.getElementById("add").textContent = jsbook.Author;
+
+// Date
+console.log(newDate());
+
+// Math
+console.log(Math.random());

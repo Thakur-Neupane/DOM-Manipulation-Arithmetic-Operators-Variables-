@@ -130,16 +130,116 @@
 //   address: Newtown,
 //   1: "string",
 // };
-const jsbook = {
-  name: "jsbook",
-  Author: "brendoneich",
-  Edition: "third",
-  Pages: 500,
-};
-document.getElementById("add").textContent = jsbook.Author;
+// const jsbook = {
+//   name: "jsbook",
+//   Author: "brendoneich",
+//   Edition: "third",
+//   Pages: 500,
+// };
+// document.getElementById("add").textContent = jsbook.Author;
 
-// Date
-console.log(newDate());
+// // Date
+// console.log(newDate());
 
-// Math
-console.log(Math.random());
+// // Math
+// console.log(Math.random());
+
+// Interview Questios
+// What are data types ?
+// What are the diffrent types of data types in js ?
+// What is an Array?
+// What is an Object?
+
+// Assignment
+// Create a simple html page using html and js to explain about operators, variables and data types.
+// Build a simple calculator.
+
+// Control Statements/ Conditional Statments
+let output = document.getElementById("output");
+let output2 = document.getElementById("output2");
+// IF STATEMENT
+// const weekend = true;
+// if (weekend) {
+//   output.textContent = "Come to class";
+// }
+// if (!weekend) {
+//   output.textContent = "Sleep!!!!";
+// }
+
+// IF ELSE STATEMENT
+// Find if a number is odd or even
+// const num = 8;
+// if (num % 2 === 0) {
+//   output.textContent = "It is even Number";
+// } else {
+//   output.textContent = "It is odd Number";
+// }
+
+// If-Else_if Statement
+// Implement grading system using if-else-if
+// const grade = 70;
+// if (grade >= 90) {
+//   output.textContent = "A+, Brilliant";
+// } else if (grade >= 80) {
+//   output.textContent = "A, Excellent";
+// } else if (grade >= 70) {
+//   output.textContent = "B+ , Good ";
+// } else {
+//   output.textContent = "You failed ";
+// }
+
+// Build a pricing catalogue for these items : Monitor, Mouse, Keyboard, CPU, Printer
+// let items = "Monitor";
+
+// if ((items = "Monitor")) {
+//   output.textContent = "The price of Monior is : $3000 ";
+// } else if ((items = "Mouse")) {
+//   output.textContent = "The price of Mouse is : $300";
+// } else if ((items = "Keyboard")) {
+//   output.textContent = "The price of Keyboard is : $300";
+// } else if ((items = "CPU")) {
+//   output.textContent = "The price of CPU is : $300";
+// } else if ((items = "Printer")) {
+//   output.textContent = "The price of Printer is : $300";
+// } else {
+//   output.textContent = "Item not found";
+// }
+
+// Switch Statement
+// const item = "Mouse";
+// switch (item) {
+//   case "Monitor":
+//     output.textContent = "Monitor: $500";
+//     break;
+//   case "Mouse":
+//     output.textContent = "Mouse : $300";
+//     break;
+//   case "CPU":
+//     output.textContent = "CPU : $1000";
+//     break;
+//   case "Prnter":
+//     output.textContent = "Printer : $100";
+//     break;
+//   default:
+//     output.textContent = "No value found";
+// }
+
+// Ternary Operator
+// 2 === 2 ? "true" : "false";
+// 4 % 2 === 0
+//   ? (output.textContent = "Even Number")
+//   : (output.textContent = "Odd Number");
+
+// Nested if
+const isRaining = true;
+const isWindy = false;
+if (isRaining) {
+  output.textContent = "It is raining";
+  if (isWindy) {
+    output.textContent = "It is also Windy";
+  } else {
+    output.textContent = "It is not windy";
+  }
+} else {
+  output.textContent = "It is not raining";
+}

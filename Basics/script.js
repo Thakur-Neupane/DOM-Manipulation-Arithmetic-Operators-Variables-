@@ -155,8 +155,8 @@
 // Build a simple calculator.
 
 // Control Statements/ Conditional Statments
-let output = document.getElementById("output");
-let output2 = document.getElementById("output2");
+// let output = document.getElementById("output");
+// let output2 = document.getElementById("output2");
 // IF STATEMENT
 // const weekend = true;
 // if (weekend) {
@@ -231,15 +231,126 @@ let output2 = document.getElementById("output2");
 //   : (output.textContent = "Odd Number");
 
 // Nested if
-const isRaining = true;
-const isWindy = false;
-if (isRaining) {
-  output.textContent = "It is raining";
-  if (isWindy) {
-    output.textContent = "It is also Windy";
-  } else {
-    output.textContent = "It is not windy";
-  }
-} else {
-  output.textContent = "It is not raining";
+// const isRaining = true;
+// const isWindy = false;
+// if (isRaining) {
+//   output.textContent = "It is raining";
+//   if (isWindy) {
+//     output.textContent = "It is also Windy";
+//   } else {
+//     output.textContent = "It is not windy";
+//   }
+// } else {
+//   output.textContent = "It is not raining";
+// }
+
+// Interview Questions
+// What is conditional statement in programming?
+// What is control statement in programming?
+// Can you talk about different cond. statement in js?
+// Explain the diffrerence between if and if else?
+// How does the order of else-if statement affect the execution of code?
+// Define Switch Case
+// What are the advantages of switch case over if else  if?
+// Can you explain about fallthrough in SwitchCase?
+// Why you use break in SwitchCase?
+// What is Condition nesting?
+// What is Ternary Operators?
+
+// LOOPS
+let output = document.getElementById("output");
+let output2 = document.getElementById("output2");
+
+// FOR LOOP
+// Initializer, Condition, Increment
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// for (let i = 0; i <= 10; ) {
+//   i += 1;
+//   console.log(i);
+// }
+
+// WHILE LOOP
+// let i = 0;
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// Do While Loop
+// let j = 0;
+// do {
+//   console.log(j);
+//   j++;
+// } while (j <= 5);
+
+// For of and For in loop
+// For In -----------Object Iterables
+// const syam = {
+//   name: "Shyam",
+//   age: 25,
+//   address: "Sydney",
+// };
+// for (let key in syam) {
+//   console.log(syam[key]);
+// }
+
+// For of -------------Works for Array and String
+// let groceryList = ["apple", "milk", "Chicken"];
+// for (let groceryItem of groceryList) {
+//   console.log(groceryItem);
+// }
+
+// // let name = "THAKUR";
+// for (let letter of "THAKUR") {
+//   console.log(letter);
+// }
+
+// const syam = {
+//   name: "Shyam",
+//   age: 25,
+//   address: "Sydney",
+// };
+// for (let key of syam) {
+//   console.log(syam);
+// }
+
+// Pattern Printing
+// for (let i = 1; i <= 4; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     output.innerHTML = output.innerHTML + "*";
+//   }
+//   output.innerHTML = output.innerHTML + "<br/>";
+// }
+
+// for (let i = 1; i <= 4; i++) {
+//   for (let j = 4; j >= i; j--) {
+//     output.innerHTML = output.innerHTML + "*";
+//   }
+//   output.innerHTML = output.innerHTML + "<br/>";
+// }
+
+// Read and write about breaks in loops
+// Explain Loops in programming
+// what are different types of loops in JSON
+// use for loop to iterate over an array item and print them
+// Explain what for in and for of loop in js.
+// What is the difference between while and dowhile.
+// Explain what is break and continue
+
+// Assignment
+// website using as many patterns as you can
+
+// Build a website to list the students record using html,js
+
+// FUNCTIONS
+function greeting(name = "Thakur") {
+  document.getElementById("output").innerHTML =
+    document.getElementById("output").innerHTML + "<h1>HELLO ${name}</h1>";
 }
+greeting("Thakur");
+greeting();
+greeting();
+greeting();

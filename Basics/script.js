@@ -373,3 +373,23 @@ let output2 = document.getElementById("output2");
 // } finally {
 //   //   console.log(Date(), "function executed");
 // }
+JS - Scheduling;
+// setTimeout
+// console.log("before st");
+// setTimeout(() => {
+//   console.log("wait is over");
+// }, 3000); //1s
+
+// clearTimeout
+// setInterval
+
+// let counter = 0;
+// const counterInterval = setInterval(() => {
+//   console.log(counter++);
+
+//   if (counter == 10) {
+//     clearInterval(counterInterval);
+//   }
+// }, 1000);
+
+// clearInterval

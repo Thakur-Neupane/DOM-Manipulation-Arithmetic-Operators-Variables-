@@ -393,3 +393,18 @@ JS - Scheduling;
 // }, 1000);
 
 // clearInterval
+JS - ES6;
+
+// Let, Const
+// Arrow function
+
+// function bio() {
+//   console.log("hey this is prem from sydney");
+//   return "it's done";
+//   //   console.log("first");
+// }
+
+// const bio = () => {
+//   return "it's done";
+// };
+// const bio = () => "it's done";

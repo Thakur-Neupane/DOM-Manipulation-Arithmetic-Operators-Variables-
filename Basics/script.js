@@ -346,11 +346,30 @@ let output2 = document.getElementById("output2");
 // Build a website to list the students record using html,js
 
 // FUNCTIONS
-function greeting(name = "Thakur") {
-  document.getElementById("output").innerHTML =
-    document.getElementById("output").innerHTML + "<h1>HELLO ${name}</h1>";
-}
-greeting("Thakur");
-greeting();
-greeting();
-greeting();
+// function greeting(name = "Thakur") {
+//   document.getElementById("output").innerHTML =
+//     document.getElementById("output").innerHTML + "<h1>HELLO ${name}</h1>";
+// }
+// greeting("Thakur");
+// greeting();
+// greeting();
+// greeting();
+
+// try {
+//   //code
+//   const name = "prem";
+//   console.log(name);
+//   //   console.log(first);
+//   //   ..
+
+//   throw new Error("token expired");
+// } catch (error) {
+//   console.log(error.message);
+
+//   if (error.message.includes("token expired")) {
+//     console.log("text sent");
+//   }
+//   // send text
+// } finally {
+//   //   console.log(Date(), "function executed");
+// }
